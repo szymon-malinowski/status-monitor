@@ -21,7 +21,7 @@ function App() {
       </header>
       <main>
         <div>
-          <p>This is a simple app for keeping track of various tasks</p>
+          <p>This is a simple app for keeping track of various tasks.</p>
         </div>
         <div>
           <ul>
