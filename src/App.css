@@ -1,2 +1,17 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+* {
+  margin: none;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

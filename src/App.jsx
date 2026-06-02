@@ -24,17 +24,17 @@ function App() {
           <p>This is a simple app for keeping track of various tasks.</p>
         </div>
         <div>
-          <ul>
-            {tasks.map((task) => (
-              <li key={task.id}>
+          {tasks.map((task) => (
+            <ul key={task.id}>
+              <li>
                 <TaskCard
                   title={task.title}
                   status={task.status}
                   priority={task.priority}
                 />
               </li>
-            ))}
-          </ul>
+            </ul>
+          ))}
         </div>
       </main>
     </>
