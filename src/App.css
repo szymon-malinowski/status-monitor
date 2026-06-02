@@ -1,6 +1,3 @@
-@import "tailwindcss";
-@plugin "daisyui";
-
 * {
   margin: none;
   box-sizing: border-box;
