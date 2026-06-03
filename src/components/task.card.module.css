@@ -1,0 +1,15 @@
+.open {
+  color: blue;
+}
+
+.in-progress {
+  color: gold;
+}
+
+.completed {
+  color: green;
+}
+
+.high {
+  color: red;
+}
