@@ -20,10 +20,10 @@ function App() {
         <h1>Task Monitor</h1>
       </header>
       <main>
-        <div>
+        <div className="wrapper">
           <p>This is a simple app for keeping track of various tasks.</p>
         </div>
-        <div>
+        <div className="wrapper">
           {tasks.map((task) => (
             <ul key={task.id}>
               <li>
